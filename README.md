@@ -15,7 +15,7 @@ This project is my first ReactJS based project. With this website you can manage
 ![Todo-List-2](/images/list2.PNG)
 
 
-## MAIN SCRREN 
+## MAIN SCREEN 
 ![Todo](/images/final.PNG)
 
 
