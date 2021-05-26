@@ -2,7 +2,6 @@ import Header from "../src/Components/Header"
 import Todos from "../src/Components/Todos"
 import Footer from "../src/Components/Footer"
 import AddTodo from "../src/Components/AddTodo";
-import About from "./Components/About"
 import React, { useState, useEffect } from 'react';
 
 import {

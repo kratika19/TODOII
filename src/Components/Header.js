@@ -4,10 +4,6 @@ import {
     Link
 } from "react-router-dom";
 
-let myStyle = {
-    "font-family": "cursive",
-    "letter-spacing": "3px"
-}
 export default function Header(props) {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark text-center">
