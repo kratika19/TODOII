@@ -4,7 +4,7 @@ import Footer from "../src/Components/Footer"
 import AddTodo from "../src/Components/AddTodo";
 import About from "./Components/About"
 import React, { useState, useEffect } from 'react';
-import './App.css';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -51,7 +51,7 @@ function App() {
   return (
     <>
       <Router>
-        <Header title="Todoii" searchBar={true} />
+        <Header title="TODOII" searchBar={false} />
 
         <Switch>
           <Route exact path="/" render={() => {
@@ -62,9 +62,6 @@ function App() {
               </>
             )
           }}>
-          </Route>
-          <Route exact path="/about">
-            <About />
           </Route>
         </Switch>
 
