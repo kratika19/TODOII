@@ -12,7 +12,7 @@ This project is my first ReactJS based project. With this website you can manage
 ## TODO LIST SCREEN 
 ![Todo-List-1](/images/list1.PNG)
 
-![Todo-List-2]("/images/list2.PNG")
+![Todo-List-2](/images/list2.PNG)
 
 
 ## MAIN SCRREN 
