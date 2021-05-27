@@ -1,6 +1,6 @@
 # TODOII - A Todo Manager
 
-This project is my first ReactJS based project. With this website you can manage your daily todos as the list gets stored on your local storage, hence giving you a better experience. The UI is kept minimal and is a bit responsive. The work is going on to make this website a fully responsive and functional. Use it on larger screens for better view and experience.
+This project is my first ReactJS based project. With this website you can manage your daily todos as the list gets stored on your local storage, hence giving you a better experience. The UI is kept minimal and is a bit responsive. This website has a fully responsive interface and works fine on both mobile or PC.
 
 
 ## ADD TODO SCREEN
