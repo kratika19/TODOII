@@ -22,10 +22,10 @@ export default function AddTodo(props) {
  
 
     return (
-        <div className="container my-3 text-center w-50" >
+        <div className="container my-3 text-center" >
             <h2 className="text-center style1">ADD TODO</h2>
             <hr />
-            <div className="style2">
+            <div className="style2 card">
                 <form onSubmit={submit}>
                     <div className="mb-3 text-left style3">
                         <label htmlFor="title" className="form-label">Title</label>

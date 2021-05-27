@@ -1,13 +1,16 @@
 .style1{
     font-family: monospace;
-    margin: 35px 0px;
+    margin: 25px 0px;
 }
 .style2{
     padding: 30px;
     border: 2px solid gainsboro;
     border-radius: 25px;
+    max-width: 40rem;
+    max-height: 100rem;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #343a40;
-    margin: 30px 40px;
 }
 .style3{
     color: azure;
@@ -17,11 +20,29 @@
     margin-bottom: 20px;
 }
 
-@media (max-width: 750px) {
-    /* For mobile phones: */
+@media screen and (max-width: 750px) { 
     .style2{
         margin: auto;
         margin-left: auto;
         margin-right: auto;
-    width: 300px;}
-  }
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 1000) { 
+    .style2{
+        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 60vw;
+    }
+}
+
+@media screen and (max-width: 1200) { 
+    .style2{
+        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50vw;
+    }
+}
